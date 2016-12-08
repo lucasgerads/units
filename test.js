@@ -54,3 +54,7 @@ console.log(units.prefix(4e-20));
 console.log(units.prefix(4e-21));
 console.log(units.prefix(4e-22,3));
 console.log(units.prefix(4e-23,3));
+console.log(units.prefix(500000)+"g");
+console.log(units.prefix(500000)+"W");
+console.log(units.prefix(500000,0)+"W");
+console.log(units.prefix(500000,2)+"W");
